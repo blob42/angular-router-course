@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="style.css" />
+    <script data-require="angular.js@1.5.x" src="https://code.angularjs.org/1.5.8/angular.js" data-semver="1.5.8"></script>
+    <script data-require="angular-route@1.5.8" data-semver="1.5.8" src="https://code.angularjs.org/1.5.8/angular-route.js"></script>
+    <script src="app.js"></script>
+        <script src='http://127.0.0.1:9001/js/socket.js'></script>
+    
+     <style>
+    #furniture {
+      width: 100%;
+      min-height: 40vh;
+      border: 1px solid red;
+    }
+  </style>
+  </head>
+
+  <body>
+    <div ng-view ng-app="myApp" id="furniture">
+      
+      
+      
+    </div>
+  </body>
+
+</html>
